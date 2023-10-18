@@ -3,22 +3,31 @@
  * CSS FILE
  */
 
-body {
+.body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: grey;
+  background-color: #f2f2f2;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-h1 {
-  font-size: 2rem;
-  font-weight: bold;
-  text-align: center;
-  color: #023047;
+.header {
+  padding: 2px;
+  background: #c8c8c8;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+.heading-links {
+  padding: 10px;
+  display: inline;
+}
+
+.heading-links a {
+  margin-right: 10px;
+  color: #000;
 }
