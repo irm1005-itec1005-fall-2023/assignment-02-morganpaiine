@@ -5,7 +5,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #fb8500;
+  background-color: grey;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,4 +16,9 @@ h1 {
   font-weight: bold;
   text-align: center;
   color: #023047;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
