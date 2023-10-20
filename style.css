@@ -31,3 +31,20 @@
   margin-right: 10px;
   color: #000;
 }
+
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  height: 50vh;
+}
+
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 30px;
+  row-gap: 50px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
