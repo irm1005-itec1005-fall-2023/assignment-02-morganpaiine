@@ -35,13 +35,13 @@
 .page-container {
   display: flex;
   justify-content: center;
-  align-items: top;
-  height: 50vh;
+  align-items: center;
+  padding: 20px;
 }
 
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
   column-gap: 30px;
   row-gap: 50px;
   padding: 10px;
@@ -73,4 +73,9 @@
 ul {
   padding: 0;
   margin: 12px;
+}
+
+.dividing-section {
+  text-align: center;
+  margin-top: auto;
 }
