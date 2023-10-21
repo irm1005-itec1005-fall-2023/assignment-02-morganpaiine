@@ -79,3 +79,23 @@ ul {
   text-align: center;
   margin-top: auto;
 }
+
+.greats-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  column-gap: 20px;
+}
+
+.greats-item {
+  text-align: center;
+}
+
+.greats-item img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  ;
+}
