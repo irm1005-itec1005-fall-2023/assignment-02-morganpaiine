@@ -140,13 +140,25 @@ ul {
   text-align: center;
 }
 
-.bottom-section button {
-  width: 20%;
-  padding: 5px;
-  margin: 10px 0px 0px 0px;
+.bottom-section label{
+  font-weight: bolder;
+} 
+
+.bottom-section input[type=text] {
+  width: 40%;
+  padding: 10px;
+  margin: 20px;
   font-size: 14px;
-  background-color: #000;
-  color: #f2f2f2;
+  border-radius: 5px;
+}
+
+.bottom-section input[type=submit] {
+  width: 20%;
+  padding: 10px 20px;
+  margin: 0px;
+  font-size: 14px;
+  background-color: rgb(212, 216, 233);
+  color: #000;
   border-radius: 5px;
 }
 
