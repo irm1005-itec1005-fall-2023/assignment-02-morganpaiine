@@ -13,7 +13,7 @@
 
 .header {
   padding: 2px;
-  background: #c8c8c8;
+  background: #dddddd;
   color: black;
   display: flex;
   justify-content: space-between;
@@ -37,6 +37,7 @@
   justify-content: center;
   align-items: center;
   padding: 20px;
+  background-color: #f2f2f2;
 }
 
 .grid-container {
@@ -90,12 +91,37 @@ ul {
 }
 
 .greats-item {
-  text-align: center;
+  text-align: left;
 }
 
 .greats-item img {
   width: 100%;
   max-width: 100%;
   height: auto;
-  ;
+  
+}
+
+.greats-item p {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+.bottom-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+.bottom-section button {
+  width: 20%;
+  padding: 5px;
+  margin: 10px 0px 0px 0px;
+  font-size: 14px;
+  background-color: #000;
+  color: #f2f2f2;
+  border-radius: 15px;
 }
