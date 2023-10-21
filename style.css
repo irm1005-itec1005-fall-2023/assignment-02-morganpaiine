@@ -3,17 +3,183 @@
  * CSS FILE
  */
 
-body {
+.body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #fb8500;
+  background-color: #f2f2f2;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-h1 {
-  font-size: 2rem;
+.header {
+  padding: 2px;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  background-color: rgb(234, 234, 234);
+}
+
+.heading-links {
+  padding: 10px;
+  display: inline;
+}
+
+.heading-links a {
+  margin-right: 10px;
+  color: #000;
+}
+
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 30px;
+  row-gap: 50px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: none;
+  color: black;
+  border: none;
+  padding: 30px;
+}
+
+.button {
+  width: 50%;
+  padding: 5px;
+  margin: 20px 0px 0px 0px;
+  font-size: 14px;
+  background-color: #000;
+  color: #f2f2f2;
+  border-radius: 5px;
+}
+
+.grid-item h2 {
+  font-size: smaller;
   font-weight: bold;
+}
+
+ul {
+  padding: 0;
+  margin: 12px;
+}
+
+.dividing-section {
   text-align: center;
-  color: #023047;
+  margin-top: auto;
+  background-color: #f2f2f2;
+  padding: 40px 70px 10px 70px;
+}
+
+.dividing-section h3 {
+  font-size: 16.5px;
+}
+
+.greats-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  column-gap: 20px;
+  background-color: #f2f2f2;
+}
+
+.greats-item {
+  text-align: left;
+}
+
+.greats-item img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  
+}
+
+.greats-item p {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+.greats-item a {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  color: #000;
+}
+
+.bottom-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+.bottom-section h5 {
+  font-weight: bold;
+  align-items: center;
+  text-align: center;
+}
+
+.bottom-section label{
+  font-weight: bolder;
+} 
+
+.bottom-section input[type=text] {
+  width: 40%;
+  padding: 10px;
+  margin: 20px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.bottom-section input[type=submit] {
+  width: 20%;
+  padding: 10px 20px;
+  margin: 0px;
+  font-size: 14px;
+  background-color: rgb(212, 216, 233);
+  color: #000;
+  border-radius: 5px;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding-top: 100px;
+  background-color: #f2f2f2;
+}
+
+.footer-item {
+  text-align: left;
+  padding: 30px;
+}
+
+.footer-item h6 {
+  font-weight: bold;
+}
+
+.footer-item p {
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
 }
